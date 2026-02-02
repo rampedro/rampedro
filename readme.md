@@ -102,105 +102,154 @@ Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud dep
 ### 📊 **Visual Analytics & HCI Experiments**
 Interactive dashboards, visual analytic and geospatial visuazlaiton using **Javasctip**, **Python**, **R**  for human-centered interactive analytics.
 
-
-
-<!-- ================= FAVORITE BOOKS ================= -->
+<!-- ================= BOOKSHELF ================= -->
 <section style="padding: 50px 20px; background: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif;">
   <h2 style="text-align:center; color:#00f7ff; margin-bottom:40px;">📚 My Favorite Books</h2>
-  
-  <div class="books-grid" style="
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
-    gap: 25px; 
-    justify-items: center;">
+
+  <div class="bookshelf" style="
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: flex-end;
+  ">
     
-    <!-- Book Card Example -->
-    <div class="book-card" style="
-      background: rgba(255, 255, 255, 0.05); 
-      backdrop-filter: blur(10px); 
-      border-radius: 15px; 
-      padding: 20px; 
-      width: 200px; 
-      transition: transform 0.3s ease, box-shadow 0.3s ease; 
-      cursor: pointer;
-      position: relative;
-      overflow: hidden;">
-      
-      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Men Are from Mars, Women Are from Venus</h3>
-      <p style="margin:0 0 5px 0; font-weight:bold;">John Gray</p>
-      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 3.58 / 5</p>
-      
-      <div class="book-review" style="
-        opacity: 0; 
-        position: absolute; 
-        top: 0; left: 0; 
-        width: 100%; 
-        height: 100%; 
-        background: rgba(0,0,0,0.85); 
-        padding: 15px; 
-        color: #fff; 
-        font-size:14px; 
-        overflow-y:auto; 
-        border-radius: 15px;
-        transition: opacity 0.3s ease;">
-        <p>Great book for self development while teaching you how to improve the quality of your relationship. Although the book is old and many things have changed since this book was published, it still has a lot of great facts about how we can better take control of healthy interactions. Recommended to check the recent talks by John Gray.</p>
-      </div>
+    <!-- Book Badge Example -->
+    <div class="book-badge" style="position: relative; cursor: pointer;">
+      <img src="https://img.shields.io/badge/Men_Are_from_Mars-FF6F61?style=flat&logo=book&logoColor=white" 
+           alt="Men Are from Mars, Women Are from Venus" 
+           style="height:40px; border-radius:5px;">
+      <span class="book-tooltip" style="
+        visibility:hidden;
+        width:250px;
+        background: rgba(0,0,0,0.85);
+        color:#fff;
+        text-align:left;
+        padding:10px;
+        border-radius:8px;
+        position:absolute;
+        bottom:50px;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:13px;
+        line-height:1.4;
+        z-index:10;
+        transition: opacity 0.3s;">
+        Great book for self development while teaching you how to improve relationships. Recommended to check the recent talks by John Gray.
+      </span>
     </div>
-    
-    <div class="book-card">
-      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Getting Things Done: The Art of Stress-Free Productivity</h3>
-      <p style="margin:0 0 5px 0; font-weight:bold;">David Allen</p>
-      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.00 / 5</p>
-      <div class="book-review">
-        <p>Awesome book to improve your productivity. Offers a systematic guide on how to get things done with exercises and simple practices. Highly recommended for anyone seeking to be more productive and less stressed.</p>
-      </div>
+
+    <div class="book-badge" style="position: relative; cursor: pointer;">
+      <img src="https://img.shields.io/badge/Getting_Things_Done-4285F4?style=flat&logo=book&logoColor=white" 
+           alt="Getting Things Done" 
+           style="height:40px; border-radius:5px;">
+      <span class="book-tooltip" style="
+        visibility:hidden;
+        width:250px;
+        background: rgba(0,0,0,0.85);
+        color:#fff;
+        text-align:left;
+        padding:10px;
+        border-radius:8px;
+        position:absolute;
+        bottom:50px;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:13px;
+        line-height:1.4;
+        z-index:10;
+        transition: opacity 0.3s;">
+        Awesome book to improve productivity. Offers a systematic guide on how to get things done with exercises and simple practices.
+      </span>
     </div>
-    
-    <div class="book-card">
-      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">How to Win Friends & Influence People</h3>
-      <p style="margin:0 0 5px 0; font-weight:bold;">Dale Carnegie</p>
-      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.22 / 5</p>
-      <div class="book-review">
-        <p>Wonderful book to understand how to be effective in building relationships. Offers simple strategies to influence others, improve interactions, and build a strong network.</p>
-      </div>
+
+    <div class="book-badge" style="position: relative; cursor: pointer;">
+      <img src="https://img.shields.io/badge/How_to_Win_Friends-FFBB00?style=flat&logo=book&logoColor=white" 
+           alt="How to Win Friends & Influence People" 
+           style="height:40px; border-radius:5px;">
+      <span class="book-tooltip" style="
+        visibility:hidden;
+        width:250px;
+        background: rgba(0,0,0,0.85);
+        color:#fff;
+        text-align:left;
+        padding:10px;
+        border-radius:8px;
+        position:absolute;
+        bottom:50px;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:13px;
+        line-height:1.4;
+        z-index:10;
+        transition: opacity 0.3s;">
+        Wonderful book to understand how to be effective in building relationships. Simple strategies to influence others.
+      </span>
     </div>
-    
-    <div class="book-card">
-      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">The Subtle Art of Not Giving a F*ck</h3>
-      <p style="margin:0 0 5px 0; font-weight:bold;">Mark Manson</p>
-      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 3.86 / 5</p>
-      <div class="book-review">
-        <p>Counterintuitive guide to living a good life. Focuses on taking responsibility, prioritizing what matters, and avoiding unnecessary stress. Straightforward and insightful.</p>
-      </div>
+
+    <div class="book-badge" style="position: relative; cursor: pointer;">
+      <img src="https://img.shields.io/badge/Subtle_Art_Not_Giving_F-33CC99?style=flat&logo=book&logoColor=white" 
+           alt="The Subtle Art of Not Giving a F*ck" 
+           style="height:40px; border-radius:5px;">
+      <span class="book-tooltip" style="
+        visibility:hidden;
+        width:250px;
+        background: rgba(0,0,0,0.85);
+        color:#fff;
+        text-align:left;
+        padding:10px;
+        border-radius:8px;
+        position:absolute;
+        bottom:50px;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:13px;
+        line-height:1.4;
+        z-index:10;
+        transition: opacity 0.3s;">
+        Counterintuitive guide to living a good life. Focuses on prioritizing what matters and avoiding unnecessary stress.
+      </span>
     </div>
-    
-    <div class="book-card">
-      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Algorithms to Live By</h3>
-      <p style="margin:0 0 5px 0; font-weight:bold;">Brian Christian</p>
-      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.12 / 5</p>
-      <div class="book-review">
-        <p>Analyses human decision making through computer algorithms. Teaches how to make better choices, manage overwhelming options, and connect with others more effectively. Truly multidisciplinary and eye-opening.</p>
-      </div>
+
+    <div class="book-badge" style="position: relative; cursor: pointer;">
+      <img src="https://img.shields.io/badge/Algorithms_to_Live_By-FF44CC?style=flat&logo=book&logoColor=white" 
+           alt="Algorithms to Live By" 
+           style="height:40px; border-radius:5px;">
+      <span class="book-tooltip" style="
+        visibility:hidden;
+        width:250px;
+        background: rgba(0,0,0,0.85);
+        color:#fff;
+        text-align:left;
+        padding:10px;
+        border-radius:8px;
+        position:absolute;
+        bottom:50px;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:13px;
+        line-height:1.4;
+        z-index:10;
+        transition: opacity 0.3s;">
+        Analyses human decision making using computer algorithms. Teaches better choices and how to manage overwhelming options.
+      </span>
     </div>
 
   </div>
 </section>
 
 <script>
-  // Hover effect to show review
-  const cards = document.querySelectorAll('.book-card');
-  cards.forEach(card => {
-    const review = card.querySelector('.book-review');
-    card.addEventListener('mouseenter', () => {
-      review.style.opacity = '1';
-      card.style.transform = 'scale(1.05)';
-      card.style.boxShadow = '0 10px 30px rgba(0, 255, 255, 0.4)';
+  // Simple hover tooltip for books
+  const badges = document.querySelectorAll('.book-badge');
+  badges.forEach(badge => {
+    const tooltip = badge.querySelector('.book-tooltip');
+    badge.addEventListener('mouseenter', () => {
+      tooltip.style.visibility = 'visible';
+      tooltip.style.opacity = '1';
     });
-    card.addEventListener('mouseleave', () => {
-      review.style.opacity = '0';
-      card.style.transform = 'scale(1)';
-      card.style.boxShadow = '0 0 10px rgba(0,255,255,0.2)';
+    badge.addEventListener('mouseleave', () => {
+      tooltip.style.visibility = 'hidden';
+      tooltip.style.opacity = '0';
     });
   });
 </script>
-
