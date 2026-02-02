@@ -1,11 +1,11 @@
 <!-- ================= HEADER ================= -->
 <div align="center">
   <!-- Coding / AI / Automation themed GIF -->
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2l0MzA0cjJxNnQzdnNlMzkzbHo0dzVzNG14YzU2am51Nmt0OWJ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Y9C9fCZgUDMIzP4Fr/giphy.gif" alt="Coding Terminal Animation" width="800"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2l0MzA0cjJxNnQzdnNlMzkzbHo0dzVzNG14YzU2am51Nmt0OWJ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Y9C9fCZgUDMIzP4Fr/giphy.gif" 
+       alt="Coding Terminal Animation" width="800"/>
   <h1 style="font-family: 'Segoe UI', sans-serif; color:#00f7ff;">Hi, I'm RAM 👋</h1>
   <p style="color:#a0a0a0;">AI · Cloud · Automation · Data Science · HCI & Visual Analytics</p>
 </div>
-
 
 ---
 
@@ -23,24 +23,22 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 
 ## 🛠 Skills & Tools
 
-<!-- ================= SKILLS FLOWING STAGE ================= -->
 <style>
-  /* Container for the floating skills stage */
+  /* Skills flowing stage */
   .skills-stage {
     position: relative;
     width: 100%;
-    height: 200px; /* Adjust height as needed */
+    height: 200px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
-    border-radius: 20px;
     margin: 40px 0;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
     box-shadow: 0 0 50px rgba(0, 255, 255, 0.2);
   }
 
-  /* The floating icons wrapper */
   .skills-wrapper {
     display: flex;
     gap: 30px;
@@ -49,11 +47,10 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
     animation: floatSkills 20s linear infinite;
   }
 
-  /* Individual skill icon styling */
   .skills-wrapper img {
     width: 60px;
     height: 60px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease;
     filter: drop-shadow(0 0 5px #00f7ff);
   }
 
@@ -62,7 +59,6 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
     filter: drop-shadow(0 0 20px #00f7ff);
   }
 
-  /* Keyframes for flowing animation */
   @keyframes floatSkills {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
@@ -95,9 +91,10 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 
 ---
 
-<!-- ================= CODING GIF ================= -->
+<!-- ================= UPDATED CODING GIF ================= -->
 <div align="center">
-  <img src="https://media.giphy.com/media/l0HlQ7LRalv95ECR6/giphy.gif" alt="Coding Terminal" width="500"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3NwZ2M2aGZ6cHhyYjJ3Z2Zsbm1ycDk0dzdteGhqaGd4d2s2cHNkZCZlcD12MV9naWZfZ3JpZg/3oKIPwoeG7g4L7m6Du/giphy.gif" 
+       alt="Modern Coding Animation" width="500"/>
 </div>
 
 ---
@@ -113,10 +110,9 @@ Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud dep
 [![GitHub](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github)](https://github.com/your/devon-ai)
 
 ### 📊 **Visual Analytics & HCI Experiments**
-Interactive dashboards using **D3.js, Plotly**, and **Python data pipelines** for human-centered analytics  
+Interactive dashboards using **D3.js, Plotly**, and **Python data pipelines** for human-centered analytics
 
 - **Sample Text Visualization**:  
-
 ```html
 <svg width="300" height="120">
   <text x="10" y="30" font-size="16" fill="#00f7ff">RAM AI & Data Science</text>
