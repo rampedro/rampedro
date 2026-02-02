@@ -102,27 +102,21 @@ Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud dep
 ### 📊 **Visual Analytics & HCI Experiments**
 Interactive dashboards, visual analytic and geospatial visuazlaiton using **Javasctip**, **Python**, **R**  for human-centered interactive analytics.
 
-
+<!-- ================= HEADER SIDE-BY-SIDE ================= -->
 <div align="center">
-  <h2>📚 My Favorite Books</h2>
+  <table>
+    <tr>
+      <!-- GIF on the left -->
+      <td>
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2l0MzA0cjJxNnQzdnNlMzkzbHo0dzVzNG14YzU2am51Nmt0OWJ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Y9C9fCZgUDMIzP4Fr/giphy.gif" 
+             alt="Coding Terminal Animation" width="250"/>
+      </td>
 
-  <img src="https://img.shields.io/badge/Men_Are_from_Mars-FF6F61?style=flat&logo=book&logoColor=white" 
-       alt="Men Are from Mars" 
-       title="Great book for self development while teaching you how to improve relationships. Recommended to check the recent talks by John Gray." />&nbsp;&nbsp;&nbsp;
-
-  <img src="https://img.shields.io/badge/Getting_Things_Done-4285F4?style=flat&logo=book&logoColor=white" 
-       alt="Getting Things Done" 
-       title="Awesome book to improve productivity. Offers a systematic guide on how to get things done with exercises and simple practices." />&nbsp;&nbsp;&nbsp;
-
-  <img src="https://img.shields.io/badge/How_to_Win_Friends-FFBB00?style=flat&logo=book&logoColor=white" 
-       alt="How to Win Friends" 
-       title="Wonderful book to understand how to be effective in building relationships. Simple strategies to influence others." />&nbsp;&nbsp;&nbsp;
-
-  <img src="https://img.shields.io/badge/Subtle_Art_Not_Giving_F-33CC99?style=flat&logo=book&logoColor=white" 
-       alt="The Subtle Art of Not Giving a F*ck" 
-       title="Counterintuitive guide to living a good life. Focuses on prioritizing what matters and avoiding unnecessary stress." />&nbsp;&nbsp;&nbsp;
-
-  <img src="https://img.shields.io/badge/Algorithms_to_Live_By-FF44CC?style=flat&logo=book&logoColor=white" 
-       alt="Algorithms to Live By" 
-       title="Analyses human decision making using computer algorithms. Teaches better choices and how to manage overwhelming options." />
+      <!-- Greeting on the right -->
+      <td style="padding-left:20px; vertical-align:middle;">
+        <h1 style="font-family: 'Segoe UI', sans-serif; color:#00f7ff;">Hi, I'm RAM 👋</h1>
+        <p style="color:#a0a0a0;">AI · Cloud · Automation · Data Science · HCI & Visual Analytics</p>
+      </td>
+    </tr>
+  </table>
 </div>
