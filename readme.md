@@ -105,30 +105,30 @@ Interactive dashboards, visual analytic and geospatial visuazlaiton using **Java
 
 
 
-
-<!-- ================= BOOKSHELF ================= -->
+<div align="center">
   <h2>📚 My Favorite Books</h2>
 
-  <div class="bookshelf">
-    
-    <div class="book-badge" title="Great book for self development while teaching you how to improve relationships. Recommended to check the recent talks by John Gray.">
-      <img src="https://img.shields.io/badge/Men_Are_from_Mars-FF6F61?style=flat&logo=book&logoColor=white" alt="Men Are from Mars"/>
-    </div>
+  <img src="https://img.shields.io/badge/Men_Are_from_Mars-FF6F61?style=flat&logo=book&logoColor=white" 
+       alt="Men Are from Mars" 
+       title="Great book for self development while teaching you how to improve relationships. Recommended to check the recent talks by John Gray." />
 
-    <div class="book-badge" title="Awesome book to improve productivity. Offers a systematic guide on how to get things done with exercises and simple practices.">
-      <img src="https://img.shields.io/badge/Getting_Things_Done-4285F4?style=flat&logo=book&logoColor=white" alt="Getting Things Done"/>
-    </div>
+  <img src="https://img.shields.io/badge/Getting_Things_Done-4285F4?style=flat&logo=book&logoColor=white" 
+       alt="Getting Things Done" 
+       title="Awesome book to improve productivity. Offers a systematic guide on how to get things done with exercises and simple practices." />
 
-    <div class="book-badge" title="Wonderful book to understand how to be effective in building relationships. Simple strategies to influence others.">
-      <img src="https://img.shields.io/badge/How_to_Win_Friends-FFBB00?style=flat&logo=book&logoColor=white" alt="How to Win Friends"/>
-    </div>
+  <img src="https://img.shields.io/badge/How_to_Win_Friends-FFBB00?style=flat&logo=book&logoColor=white" 
+       alt="How to Win Friends" 
+       title="Wonderful book to understand how to be effective in building relationships. Simple strategies to influence others." />
 
-    <div class="book-badge" title="Counterintuitive guide to living a good life. Focuses on prioritizing what matters and avoiding unnecessary stress.">
-      <img src="https://img.shields.io/badge/Subtle_Art_Not_Giving_F-33CC99?style=flat&logo=book&logoColor=white" alt="The Subtle Art of Not Giving a F*ck"/>
-    </div>
+  <img src="https://img.shields.io/badge/Subtle_Art_Not_Giving_F-33CC99?style=flat&logo=book&logoColor=white" 
+       alt="The Subtle Art of Not Giving a F*ck" 
+       title="Counterintuitive guide to living a good life. Focuses on prioritizing what matters and avoiding unnecessary stress." />
 
-    <div class="book-badge" title="Analyses human decision making using computer algorithms. Teaches better choices and how to manage overwhelming options.">
-      <img src="https://img.shields.io/badge/Algorithms_to_Live_By-FF44CC?style=flat&logo=book&logoColor=white" alt="Algorithms to Live By"/>
-    </div>
+  <img src="https://img.shields.io/badge/Algorithms_to_Live_By-FF44CC?style=flat&logo=book&logoColor=white" 
+       alt="Algorithms to Live By" 
+       title="Analyses human decision making using computer algorithms. Teaches better choices and how to manage overwhelming options." />
+</div>
+
+
 
   </div>
