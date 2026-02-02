@@ -6,6 +6,7 @@
   <p style="color:#a0a0a0;">AI · Cloud · Automation · Data Science · HCI & Visual Analytics</p>
 </div>
 
+
 ---
 
 ## 💻 About Me
@@ -22,26 +23,75 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 
 ## 🛠 Skills & Tools
 
-<!-- Programming & Data -->
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plotly-3F4B7B?style=flat&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-000000?style=flat&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-FF9800?style=flat&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/n8n-A662ED?style=flat&logo=n8n&logoColor=white"/>
+<!-- ================= SKILLS FLOWING STAGE ================= -->
+<style>
+  /* Container for the floating skills stage */
+  .skills-stage {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    border-radius: 20px;
+    margin: 40px 0;
+    box-shadow: 0 0 50px rgba(0, 255, 255, 0.2);
+  }
 
-<!-- Cloud Platforms -->
-<img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/IBM_Cloud-054ADA?style=flat&logo=ibm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white"/>
+  /* The floating icons wrapper */
+  .skills-wrapper {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    white-space: nowrap;
+    animation: floatSkills 20s linear infinite;
+  }
+
+  /* Individual skill icon styling */
+  .skills-wrapper img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 0 5px #00f7ff);
+  }
+
+  .skills-wrapper img:hover {
+    transform: scale(1.3) rotate(10deg);
+    filter: drop-shadow(0 0 20px #00f7ff);
+  }
+
+  /* Keyframes for flowing animation */
+  @keyframes floatSkills {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
+
+<div class="skills-stage">
+  <div class="skills-wrapper">
+    <!-- Programming & Data -->
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"/>
+    <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3.js&logoColor=white" alt="D3.js"/>
+    <img src="https://img.shields.io/badge/Plotly-3F4B7B?style=flat&logo=plotly&logoColor=white" alt="Plotly"/>
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
+    <img src="https://img.shields.io/badge/Git-000000?style=flat&logo=git&logoColor=white" alt="Git"/>
+    <img src="https://img.shields.io/badge/Jupyter-FF9800?style=flat&logo=jupyter&logoColor=white" alt="Jupyter"/>
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma"/>
+    <img src="https://img.shields.io/badge/n8n-A662ED?style=flat&logo=n8n&logoColor=white" alt="n8n"/>
+    <!-- Cloud Platforms -->
+    <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white" alt="AWS"/>
+    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="Google Cloud"/>
+    <img src="https://img.shields.io/badge/IBM_Cloud-054ADA?style=flat&logo=ibm&logoColor=white" alt="IBM Cloud"/>
+    <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle Cloud"/>
+  </div>
+</div>
 
 ---
 
