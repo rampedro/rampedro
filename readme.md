@@ -2,7 +2,7 @@
 <div align="center">
   <!-- Coding / AI / Automation themed GIF -->
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2l0MzA0cjJxNnQzdnNlMzkzbHo0dzVzNG14YzU2am51Nmt0OWJ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Y9C9fCZgUDMIzP4Fr/giphy.gif" 
-       alt="Coding Terminal Animation" width="800"/>
+       alt="Coding Terminal Animation" />
   <h1 style="font-family: 'Segoe UI', sans-serif; color:#00f7ff;">Hi, I'm RAM 👋</h1>
   <p style="color:#a0a0a0;">AI · Cloud · Automation · Data Science · HCI & Visual Analytics</p>
 </div>
@@ -101,4 +101,106 @@ Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud dep
 
 ### 📊 **Visual Analytics & HCI Experiments**
 Interactive dashboards, visual analytic and geospatial visuazlaiton using **Javasctip**, **Python**, **R**  for human-centered interactive analytics.
+
+
+
+<!-- ================= FAVORITE BOOKS ================= -->
+<section style="padding: 50px 20px; background: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif;">
+  <h2 style="text-align:center; color:#00f7ff; margin-bottom:40px;">📚 My Favorite Books</h2>
+  
+  <div class="books-grid" style="
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 25px; 
+    justify-items: center;">
+    
+    <!-- Book Card Example -->
+    <div class="book-card" style="
+      background: rgba(255, 255, 255, 0.05); 
+      backdrop-filter: blur(10px); 
+      border-radius: 15px; 
+      padding: 20px; 
+      width: 200px; 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;">
+      
+      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Men Are from Mars, Women Are from Venus</h3>
+      <p style="margin:0 0 5px 0; font-weight:bold;">John Gray</p>
+      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 3.58 / 5</p>
+      
+      <div class="book-review" style="
+        opacity: 0; 
+        position: absolute; 
+        top: 0; left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background: rgba(0,0,0,0.85); 
+        padding: 15px; 
+        color: #fff; 
+        font-size:14px; 
+        overflow-y:auto; 
+        border-radius: 15px;
+        transition: opacity 0.3s ease;">
+        <p>Great book for self development while teaching you how to improve the quality of your relationship. Although the book is old and many things have changed since this book was published, it still has a lot of great facts about how we can better take control of healthy interactions. Recommended to check the recent talks by John Gray.</p>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Getting Things Done: The Art of Stress-Free Productivity</h3>
+      <p style="margin:0 0 5px 0; font-weight:bold;">David Allen</p>
+      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.00 / 5</p>
+      <div class="book-review">
+        <p>Awesome book to improve your productivity. Offers a systematic guide on how to get things done with exercises and simple practices. Highly recommended for anyone seeking to be more productive and less stressed.</p>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">How to Win Friends & Influence People</h3>
+      <p style="margin:0 0 5px 0; font-weight:bold;">Dale Carnegie</p>
+      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.22 / 5</p>
+      <div class="book-review">
+        <p>Wonderful book to understand how to be effective in building relationships. Offers simple strategies to influence others, improve interactions, and build a strong network.</p>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">The Subtle Art of Not Giving a F*ck</h3>
+      <p style="margin:0 0 5px 0; font-weight:bold;">Mark Manson</p>
+      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 3.86 / 5</p>
+      <div class="book-review">
+        <p>Counterintuitive guide to living a good life. Focuses on taking responsibility, prioritizing what matters, and avoiding unnecessary stress. Straightforward and insightful.</p>
+      </div>
+    </div>
+    
+    <div class="book-card">
+      <h3 style="margin:0 0 10px 0; font-size:18px; color:#00f7ff;">Algorithms to Live By</h3>
+      <p style="margin:0 0 5px 0; font-weight:bold;">Brian Christian</p>
+      <p style="margin:0 0 10px 0; font-size:14px;">⭐ 4.12 / 5</p>
+      <div class="book-review">
+        <p>Analyses human decision making through computer algorithms. Teaches how to make better choices, manage overwhelming options, and connect with others more effectively. Truly multidisciplinary and eye-opening.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  // Hover effect to show review
+  const cards = document.querySelectorAll('.book-card');
+  cards.forEach(card => {
+    const review = card.querySelector('.book-review');
+    card.addEventListener('mouseenter', () => {
+      review.style.opacity = '1';
+      card.style.transform = 'scale(1.05)';
+      card.style.boxShadow = '0 10px 30px rgba(0, 255, 255, 0.4)';
+    });
+    card.addEventListener('mouseleave', () => {
+      review.style.opacity = '0';
+      card.style.transform = 'scale(1)';
+      card.style.boxShadow = '0 0 10px rgba(0,255,255,0.2)';
+    });
+  });
+</script>
 
