@@ -70,12 +70,5 @@ Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud dep
 [![GitHub](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github)](https://github.com/your/devon-ai)
 
 ### 📊 **Visual Analytics & HCI Experiments**
-Interactive dashboards using **D3.js, Plotly**, and **Python data pipelines** for human-centered analytics
+Interactive dashboards, visual analytic and geospatial visuazlaiton using **Javasctip**, **Python**, **R**  for human-centered interactive analytics.
 
-- **Sample Text Visualization**:  
-```html
-<svg width="300" height="120">
-  <text x="10" y="30" font-size="16" fill="#00f7ff">RAM AI & Data Science</text>
-  <rect x="10" y="40" width="50" height="70" fill="#ff00ff"/>
-  <rect x="70" y="20" width="50" height="90" fill="#00ffcc"/>
-</svg>
