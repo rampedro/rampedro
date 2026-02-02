@@ -105,8 +105,8 @@ Interactive dashboards, visual analytic and geospatial visuazlaiton using **Java
 
 
 
+
 <!-- ================= BOOKSHELF ================= -->
-<section>
   <h2>📚 My Favorite Books</h2>
 
   <div class="bookshelf">
@@ -132,4 +132,3 @@ Interactive dashboards, visual analytic and geospatial visuazlaiton using **Java
     </div>
 
   </div>
-</section>
