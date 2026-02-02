@@ -23,47 +23,7 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 
 ## 🛠 Skills & Tools
 
-<style>
-  /* Skills flowing stage */
-  .skills-stage {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
-    box-shadow: 0 0 50px rgba(0, 255, 255, 0.2);
-  }
 
-  .skills-wrapper {
-    display: flex;
-    gap: 30px;
-    position: absolute;
-    white-space: nowrap;
-    animation: floatSkills 20s linear infinite;
-  }
-
-  .skills-wrapper img {
-    width: 60px;
-    height: 60px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    filter: drop-shadow(0 0 5px #00f7ff);
-  }
-
-  .skills-wrapper img:hover {
-    transform: scale(1.3) rotate(10deg);
-    filter: drop-shadow(0 0 20px #00f7ff);
-  }
-
-  @keyframes floatSkills {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }
-</style>
 
 <div class="skills-stage">
   <div class="skills-wrapper">
@@ -93,7 +53,7 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 
 <!-- ================= UPDATED CODING GIF ================= -->
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3NwZ2M2aGZ6cHhyYjJ3Z2Zsbm1ycDk0dzdteGhqaGd4d2s2cHNkZCZlcD12MV9naWZfZ3JpZg/3oKIPwoeG7g4L7m6Du/giphy.gif" 
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5xbWwxMzUxa2lscGFlbWxvc2RxenN6aGhyNm1kbGY4dzQ2bndrOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zwYerIlI3MhFN4RV9i/giphy.gif" 
        alt="Modern Coding Animation" width="500"/>
 </div>
 
