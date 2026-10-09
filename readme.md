@@ -95,9 +95,8 @@ I merge **data, design, code, and AI** to create **interactive dashboards, autom
 Interactive dashboard combining **AI, HCI, Text Visualization, Cloud & Automation**  
 [![Live Demo](https://img.shields.io/badge/Live-Dashboard-blue?style=flat)](https://github.com/your/portfolio)
 
-### 🤖 **AI Chatbot (DevonAI)**
+### 🤖 **AI Chatbot **
 Integrates **Text-to-Speech, Speech-to-Text, Translation, NLP**, and **cloud deployment**  
-[![GitHub](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github)](https://github.com/your/devon-ai)
 
 ### 📊 **Visual Analytics & HCI Experiments**
 Interactive dashboards, visual analytic and geospatial visuazlaiton using **Javasctip**, **Python**, **R**  for human-centered interactive analytics.
